@@ -19,36 +19,52 @@ You can run the tests locally by following the [Installation](#installation) and
    ```bash
    git clone https://github.com/Divya15-nshi/coffee-cart-playwright-tests.git
    cd coffee-cart-playwright-tests
-2. Install dependencies:
-   npm install
-3. Install Playwright (includes browsers):
-   npx playwright install
+Install dependencies:
+```bash
+npm install
+Install Playwright browsers:
+```bash
+npx playwright install
+
 📁 Project Structure
-   coffee-cart-playwright-tests/
-├── tests/  # Test cases
-├── pages/ # Page Object Models
-├── fixtures/ # Test data or reusable configs
-├── playwright.config.ts # Playwright configuration
-├── package.json # Project metadata and scripts
-└── README.md # Documentation
+```bash
+coffee-cart-playwright-tests/
+├── tests/                # Test cases
+├── pages/                # Page Object Models (POM)
+├── fixtures/             # Shared test data/config
+├── playwright.config.ts  # Playwright configuration file
+├── package.json          # NPM scripts & dependencies
+└── README.md             # Project documentation
 
 🧪 Running Tests
 Run all tests:
+```bash
 npx playwright test
 Run a specific test file:
-npx playwright test tests/<file-name>.ts
-Run with UI:
+```bash
+npx playwright test tests/<filename>.ts
+Run with Playwright Test UI:
+```bash
 npx playwright test --ui
 
 ✅ Test Scenarios Covered
-- User can add items to cart
-- User can update quantities
-- User can remove items from cart
-- User can place an order
-- user can perform extra actions apart from usual addto cart flows.
+Adding items to the cart
+
+Updating item quantities
+
+Removing items from the cart
+
+Placing an order
+
+Validating empty cart behavior
+
+Checking for correct price calculation
+
+user can perform extra actions apart from usual add to cart flows.
 
 📊 Playwright Report
 To view the latest HTML test report:
+```bash
 npx playwright show-report
 
 🤝 Contributing
@@ -57,3 +73,4 @@ Please fork the repo, create a branch, make your changes, and open a pull reques
 
 📄 License
 This project is licensed under the MIT License.
+
