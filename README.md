@@ -1,4 +1,4 @@
-# Coffee Cart Playwright Tests
+# ☕️ **Coffee Cart - Playwright Tests**
 Automated end-to-end testing suite for a Coffee Cart web application using Playwright. This project automates the testing of key user flows to ensure stability, reliability, and performance.
 
 ## Table of Contents
@@ -32,7 +32,7 @@ You can run the tests locally by following the [Installation](#installation) and
    ```bash
    npx playwright install
 
-📁 Project Structure
+## 📁 **Project Structure**
 ```bash
 coffee-cart-playwright-tests/
 ├── tests/                # Test cases
@@ -43,7 +43,7 @@ coffee-cart-playwright-tests/
 └── README.md             # Project documentation
 ```
 
-🧪 Running Tests
+## 🧪 **Running Tests**
 Run all tests:
 ```bash
 npx playwright test
@@ -59,7 +59,7 @@ Run with Playwright Test UI:
 npx playwright test --ui
 ```
 
-✅ Test Scenarios Covered
+## ✅ **Test Scenarios Covered**
 
 Adding items to the cart.
 
@@ -75,17 +75,18 @@ Checking for correct price calculation.
 
 User can perform extra actions other than usual add to cart flows.
 
-📊 Playwright Report
 
+
+## 📊 **Playwright Report**
 To view the latest HTML test report:
 ```bash
 npx playwright show-report
 ```
-🤝 Contributing
+## 🤝 **Contributing**
 
 Contributions are welcome!
 Please fork the repo, create a branch, make your changes, and open a pull request. Make sure your code is well-tested and documented.
 
-📄 License
+## 📄 **License**
 
 This project is licensed under the MIT License.
